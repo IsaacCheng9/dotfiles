@@ -5,6 +5,8 @@
 	name = Isaac Cheng
 	email = 47993930+IsaacCheng9@users.noreply.github.com
 	signingkey = 71707B45662902D7
+[push]
+	autoSetupRemote = true
 [pull]
 	rebase = true
 [commit]
