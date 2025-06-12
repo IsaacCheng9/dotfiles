@@ -1,0 +1,21 @@
+[core]
+	excludesfile = /Users/isaac/.gitignore_global
+	ignorecase = false
+[user]
+	name = Isaac Cheng
+	email = 47993930+IsaacCheng9@users.noreply.github.com
+	signingkey = 71707B45662902D7
+[pull]
+	rebase = true
+[commit]
+	template = /Users/isaac/.stCommitMsg
+	gpgsign = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[http]
+	postBuffer = 157286400
+[gpg]
+	program = /opt/homebrew/bin/gpg
