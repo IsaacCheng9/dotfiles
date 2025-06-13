@@ -17,7 +17,7 @@
 window-height = 40
 window-width = 100
 font-family = "SF Mono"
-font-size = 20
+font-size = 11
 theme = "OneHalfDark"
 alpha-blending = linear-corrected
 window-colorspace = display-p3
