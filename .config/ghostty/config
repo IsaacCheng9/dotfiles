@@ -1,0 +1,23 @@
+# ~/.config/ghostty/config
+# Config file for Ghostty terminal emulator.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# Config syntax crash course
+# ==========================
+# The config file consists of simple key-value pairs,
+# separated by equals signs.
+# Keys can be set without a value to set it to the default value.
+# e.g. font-family =
+
+window-height = 40
+window-width = 100
+font-family = "SF Mono"
+font-size = 20
+theme = "OneHalfDark"
+alpha-blending = linear-corrected
+window-colorspace = display-p3
