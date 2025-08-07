@@ -18,6 +18,8 @@ else
     eval "$(/usr/local/bin/brew shellenv)"
 fi
 
+# Cursor CLI setup
+export PATH="$HOME/.local/bin:$PATH"
 # Rust configuration
 . "$HOME/.cargo/env"
 
