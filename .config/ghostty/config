@@ -21,3 +21,4 @@ font-size = 11
 theme = "One Half Dark"
 alpha-blending = linear-corrected
 window-colorspace = display-p3
+keybind = shift+enter=text:\x1b\r
