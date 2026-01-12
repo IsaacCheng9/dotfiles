@@ -71,3 +71,6 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 # Oh My Posh theme
 # eval "$(oh-my-posh init zsh)"
 # eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/star.omp.json)"
+
+# Add autocompletion for ty CLI
+eval "$(ty generate-shell-completion zsh)"
